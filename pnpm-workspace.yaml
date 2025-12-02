@@ -20,6 +20,8 @@ catalogs:
     eslint-plugin-format: ^1.0.2
     typescript: ^5.9.3
     vue-tsc: ^3.1.2
+  docs:
+    yaml: ^2.8.2
   frontend:
     '@vueuse/core': ^14.0.0
     pinia: ^3.0.3
@@ -31,3 +33,5 @@ onlyBuiltDependencies:
   - '@parcel/watcher'
   - esbuild
   - unrs-resolver
+catalog:
+  yaml: ^2.8.2
